@@ -6,7 +6,7 @@ const Header = () => {
     <div className="my-header">
       <div className="my-header-width">
         <div className="header-big-name">
-          <h1>Shijir Bat</h1>
+          <h1>Shijir-Erdene Bat-Enkh</h1>
         </div>
         <div className="header-links">
           <div className="header-link">
