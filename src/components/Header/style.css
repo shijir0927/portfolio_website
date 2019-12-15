@@ -1,0 +1,24 @@
+.my-header {
+  width: 100vw;
+  height: 100px;
+  background-color: #285172;
+  color: white;
+  align-items: center;
+}
+
+.my-header-width {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-big-name {
+  font-size: 28px;
+}
+.header-links {
+  display: flex;
+  margin-top: 20px;
+}
+.header-link {
+  margin: 0 20px;
+  font-size: 28px;
+}
