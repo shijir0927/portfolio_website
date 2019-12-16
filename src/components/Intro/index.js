@@ -13,7 +13,7 @@ const Intro = () => {
       <h1 className="intro-big-name">Shijir-Erdene Bat-Enkh</h1>
       <hr className="intro-line"></hr>
       <p className="intro-text">
-        Full-Stack Engineer based in San Francisco, CA
+        Full-Stack Developer based in San Francisco, CA
       </p>
     </div>
   );
