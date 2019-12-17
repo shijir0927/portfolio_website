@@ -1,0 +1,52 @@
+.about-me {
+  color: #285172;
+}
+.header {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: 700;
+}
+.line {
+  width: 400px;
+  margin: 5px auto;
+  height: 4px;
+  background-color: #285172;
+  border: none;
+}
+
+.about-me-wrapper {
+  width: 70%;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  margin: auto;
+}
+
+.experience-and-education {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skills {
+  width: 50%;
+}
+.big-text {
+  margin: 20px 0px;
+}
+
+.important-text {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.date {
+  color: grey;
+}
+.less-important-text {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: grey;
+}
