@@ -1,0 +1,50 @@
+.projects {
+  background-color: #eaf1f1;
+  color: #285172;
+}
+
+.projects-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.line {
+  width: 400px;
+  margin: 5px auto;
+  height: 4px;
+  background-color: #285172;
+  border: none;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6"; */
+  justify-items: center;
+}
+
+.project-card {
+  height: 300px;
+  width: 250px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  margin: 30px;
+  text-align: center;
+}
+
+.card-technologies li {
+  list-style-type: none;
+}
