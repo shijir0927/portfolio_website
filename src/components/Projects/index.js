@@ -31,7 +31,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="card-button">
-                <button>Demo</button>
+                <button>Source Code</button>
               </div>
             </div>
           </div>
