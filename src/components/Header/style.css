@@ -5,6 +5,7 @@
   color: white;
   align-items: center;
   position: fixed;
+  z-index: 2;
 }
 
 .my-header-width {
@@ -20,7 +21,7 @@
 }
 .header-links {
   display: flex;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .header-link {
   margin: 0 20px;

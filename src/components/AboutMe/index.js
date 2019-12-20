@@ -46,7 +46,9 @@ const AboutMe = () => {
 
           <br></br>
           <p className="less-important-text">Deployment:</p>
-          <p className="important-text">Heroku, AWS S3, Docker, Git</p>
+          <p className="important-text">
+            Heroku, AWS S3, CloudFront, Docker, Git
+          </p>
         </div>
       </div>
     </div>

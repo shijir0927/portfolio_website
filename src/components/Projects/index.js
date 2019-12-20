@@ -14,13 +14,19 @@ const Projects = () => {
           <div className="project-card card1">
             <div className="card-front">
               <div className="card-title">
-                <h2>codeHub</h2>
+                <h2>
+                  <span className="card-title-text">codeHub</span>
+                </h2>
               </div>
               <div className="card-technologies">
                 <ul>
                   <li>React.js</li>
-                  <li>Node.js</li>
+                  <hr className="card-technologies-line"></hr>
+                  <li>Node.js | Express.js</li>
+                  <hr className="card-technologies-line"></hr>
                   <li>MongoDB</li>
+                  <hr className="card-technologies-line"></hr>
+                  <li>CSS Grid</li>
                 </ul>
               </div>
             </div>
@@ -31,20 +37,28 @@ const Projects = () => {
                 </p>
               </div>
               <div className="card-button">
-                <button>Source Code</button>
+                <button className="card-button">Source Code</button>
               </div>
             </div>
           </div>
           <div className="project-card card2">
             <div className="card-front">
               <div className="card-title">
-                <h2>Meal Music</h2>
+                <h2>
+                  <span className="card-title-text">Meal Music</span>
+                </h2>
               </div>
               <div className="card-technologies">
                 <ul>
                   <li>HTML5</li>
+                  <hr className="card-technologies-line"></hr>
+
                   <li>CSS3</li>
+                  <hr className="card-technologies-line"></hr>
+
                   <li>Javascript/jQuery</li>
+                  <hr className="card-technologies-line"></hr>
+
                   <li>REST API</li>
                 </ul>
               </div>
@@ -54,48 +68,136 @@ const Projects = () => {
                 <p>Search restaurants accompanied with a relevant playlist</p>
               </div>
               <div className="card-button">
-                <button>Demo</button>
+                <button className="card-button">Demo</button>
               </div>
             </div>
           </div>
           <div className="project-card card3">
             <div className="card-front">
-              <div className="card-title"></div>
-              <div className="card-technologies"></div>
+              <div className="card-title">
+                <h2>
+                  <span className="card-title-text">
+                    Sorting algorithms visualzer
+                  </span>
+                </h2>
+              </div>
+              <div className="card-technologies">
+                <ul>
+                  <li>HTML5</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>CSS3</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Javascript/jQuery</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>REST API</li>
+                </ul>
+              </div>
             </div>
             <div className="card-back">
-              <div className="card-description"></div>
-              <div className="card-button"></div>
+              <div className="card-description">
+                Visualize the most popular sorting algorithms
+              </div>
+              <div className="card-button">
+                <button className="card-button">Demo</button>
+              </div>
             </div>
           </div>
           <div className="project-card card4">
             <div className="card-front">
-              <div className="card-title"></div>
-              <div className="card-technologies"></div>
+              <div className="card-title">
+                <h2>
+                  <span className="card-title-text">
+                    The shortest path finder
+                  </span>
+                </h2>
+              </div>
+              <div className="card-technologies">
+                <ul>
+                  <li>HTML5</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>CSS3</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Javascript/jQuery</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>REST API</li>
+                </ul>
+              </div>
             </div>
             <div className="card-back">
-              <div className="card-description"></div>
-              <div className="card-button"></div>
+              <div className="card-description">
+                Visualize the path finding algorithms
+              </div>
+              <div className="card-button">
+                <button className="card-button">Demo</button>
+              </div>
             </div>
           </div>
           <div className="project-card card5">
             <div className="card-front">
-              <div className="card-title"></div>
-              <div className="card-technologies"></div>
+              <div className="card-title">
+                <h2>
+                  <span className="card-title-text">GreenBay Cleaning</span>
+                </h2>
+              </div>
+              <div className="card-technologies">
+                <ul>
+                  <li>HTML5</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>CSS3</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Javascript/jQuery</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>REST API</li>
+                </ul>
+              </div>
             </div>
             <div className="card-back">
-              <div className="card-description"></div>
-              <div className="card-button"></div>
+              <div className="card-description">
+                A website for home cleaning company
+              </div>
+              <div className="card-button">
+                <button className="card-button">Demo</button>
+              </div>
             </div>
           </div>
           <div className="project-card card6">
             <div className="card-front">
-              <div className="card-title"></div>
-              <div className="card-technologies"></div>
+              <div className="card-title">
+                <h2>
+                  <span className="card-title-text">HostIt</span>
+                </h2>
+              </div>
+              <div className="card-technologies">
+                <ul>
+                  <li>HTML5</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>CSS3</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Javascript/jQuery</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>REST API</li>
+                </ul>
+              </div>
             </div>
             <div className="card-back">
-              <div className="card-description"></div>
-              <div className="card-button"></div>
+              <div className="card-description">
+                Real-time event hosting mobile app.
+              </div>
+              <div className="card-button">
+                <button className="card-button">Demo</button>
+              </div>
             </div>
           </div>
         </div>
