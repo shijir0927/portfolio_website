@@ -37,9 +37,8 @@ const Contact = () => {
       </div>
       <div className="resume">
         <a
-          href="Shijir_Resume.pdf"
+          href="https://drive.google.com/file/d/1fjQ8bvtsDSVQQVOp29dGOROAOP10RbGE/view?usp=sharing"
           target="_blank"
-          download="Shijir_Resume.pdf"
           rel="noopener noreferrer"
         >
           <button className="get-resume">Get Resume</button>
