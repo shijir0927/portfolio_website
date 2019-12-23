@@ -54,3 +54,35 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/* Media query for Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .line {
+    width: 250px;
+  }
+  .header {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .CONTACT {
+    font-size: 32px;
+  }
+  .contact-icons-small {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-icons {
+    width: 100vw;
+  }
+}
+
+/* Media query for Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}

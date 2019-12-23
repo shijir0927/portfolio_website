@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Intro from "./components/Intro";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { render } from "react-dom";
+import { withGetScreen } from "react-getscreen";
 import {
   Link,
   DirectLink,
@@ -70,6 +71,17 @@ class App extends Component {
   }
 
   render() {
+    // Tried to use react-getscreensize but it wasn't necessary
+    // if (this.props.isMobile())
+    //   return (
+    //     <div>
+    //       <Header />
+    //       <Intro />
+    //       <AboutMe />
+    //       <Projects />
+    //       <Footer />
+    //     </div>
+    //   );
     return (
       <div>
         <Element name="top" className="top">

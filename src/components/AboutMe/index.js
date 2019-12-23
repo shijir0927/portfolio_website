@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <div className="header">
-        <p>ABOUT ME</p>
+        <p className="ABOUT-ME">ABOUT ME</p>
         <hr className="line"></hr>
       </div>
       <br></br>
@@ -37,18 +37,19 @@ const AboutMe = () => {
           <p className="important-text">
             HTML5, CSS3, Javascript/ES6, AJAX, jQuery, React.js, React Native
           </p>
-          <br></br>
+          <br className="break"></br>
 
           <p className="less-important-text">Back-End Development:</p>
           <p className="important-text">
             Node.js, Express.js, MySQL, MongoDB, Firebase, C++
           </p>
 
-          <br></br>
+          <br className="break"></br>
           <p className="less-important-text">Deployment:</p>
           <p className="important-text">
             Heroku, AWS S3, CloudFront, Docker, Git
           </p>
+          <br></br>
         </div>
       </div>
     </div>

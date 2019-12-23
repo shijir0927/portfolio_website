@@ -49,3 +49,24 @@
 .contact:hover {
   color: #2196f3;
 }
+
+/* Media query for Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .my-header {
+    width: 100vw;
+  }
+
+  .header-name-icons {
+    display: none;
+  }
+}
+
+/* Media query for Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .my-header {
+    color: blue;
+  }
+}

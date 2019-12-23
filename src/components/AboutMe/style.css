@@ -52,3 +52,55 @@
   margin-bottom: 25px;
   color: grey;
 }
+
+/* Media query for Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .header {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .line {
+    background-color: red;
+  }
+
+  .ABOUT-ME {
+    font-size: 32px;
+  }
+
+  .big-text {
+    font-size: 24px;
+  }
+
+  .important-text {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .less-important-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .about-me-wrapper {
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .experience-and-education,
+  .skills {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* Media query for Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
