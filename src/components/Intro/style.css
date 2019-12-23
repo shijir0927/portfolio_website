@@ -44,10 +44,11 @@
   /* Styles */
   .intro-portfolio-image {
     height: 250px;
-    margin: 50px 0 80px 0;
+    margin: 50px auto;
   }
   .intro-container {
     margin-top: 0;
+    text-align: center;
   }
   .intro-line {
     width: 250px;
