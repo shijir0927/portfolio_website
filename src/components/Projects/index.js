@@ -36,7 +36,7 @@ const Projects = () => {
                   A community for developers and recruiters to learn and connect
                 </p>
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Source Code</button>
               </div>
             </div>
@@ -67,7 +67,7 @@ const Projects = () => {
               <div className="card-description">
                 <p>Search restaurants accompanied with a relevant playlist</p>
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Demo</button>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Projects = () => {
               <div className="card-description">
                 Visualize the most popular sorting algorithms
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Demo</button>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Projects = () => {
               <div className="card-description">
                 Visualize the path finding algorithms
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Demo</button>
               </div>
             </div>
@@ -164,7 +164,7 @@ const Projects = () => {
               <div className="card-description">
                 A website for home cleaning company
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Demo</button>
               </div>
             </div>
@@ -195,7 +195,7 @@ const Projects = () => {
               <div className="card-description">
                 Real-time event hosting mobile app.
               </div>
-              <div className="card-button">
+              <div className="card-button-big">
                 <button className="card-button">Demo</button>
               </div>
             </div>

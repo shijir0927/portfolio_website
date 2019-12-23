@@ -113,6 +113,14 @@
 .card-description {
   padding: 15px;
 }
+.card-button-big {
+  border-radius: 35px;
+  padding: 20px 30px;
+  border: none;
+  color: grey;
+  font-weight: 500;
+}
+
 .card-button {
   border-radius: 35px;
   padding: 20px 30px;
@@ -179,6 +187,13 @@
 
   .card-title {
     height: 60px;
+  }
+  .card-button {
+    border-radius: 35px;
+    padding: 20px 30px;
+    border: none;
+    color: grey;
+    font-weight: 500;
   }
 }
 
