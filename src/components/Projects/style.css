@@ -188,6 +188,10 @@
   .card-title {
     height: 60px;
   }
+
+  .card-description {
+    padding-bottom: 0;
+  }
   .card-button {
     border-radius: 35px;
     padding: 20px 30px;

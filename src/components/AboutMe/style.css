@@ -71,7 +71,7 @@
   }
 
   .big-text {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .important-text {
@@ -84,6 +84,10 @@
 
   .less-important-text {
     font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  #skills-header {
     margin-bottom: 10px;
   }
   .about-me-wrapper {
@@ -97,6 +101,11 @@
   .skills {
     width: 80%;
     margin: auto;
+  }
+  .experience,
+  .education,
+  .skills {
+    text-align: start;
   }
 }
 

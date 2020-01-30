@@ -33,22 +33,26 @@ const AboutMe = () => {
         </div>
         <div className="skills">
           <h1 className="big-text">SKILLS</h1>
-          <p className="less-important-text">Front-End Development:</p>
+          <p className="less-important-text" id="skills-header">
+            Front-End Development:
+          </p>
           <p className="important-text">
             HTML5, CSS3, Javascript/ES6, AJAX, jQuery, React.js, React Native
           </p>
           <br className="break"></br>
 
-          <p className="less-important-text">Back-End Development:</p>
+          <p className="less-important-text" id="skills-header">
+            Back-End Development:
+          </p>
           <p className="important-text">
             Node.js, Express.js, MySQL, MongoDB, Firebase, C++
           </p>
 
           <br className="break"></br>
-          <p className="less-important-text">Deployment:</p>
-          <p className="important-text">
-            Heroku, AWS S3, CloudFront, Docker, Git
+          <p className="less-important-text" id="skills-header">
+            Deployment:
           </p>
+          <p className="important-text">Heroku, AWS S3, CloudFront, Git</p>
           <br></br>
         </div>
       </div>
