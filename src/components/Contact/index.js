@@ -28,11 +28,6 @@ const Contact = () => {
               <i class="fas fa-envelope-square"></i>
             </span>
           </a>
-          <a href="tel:+19258548206" target="_blank">
-            <span className="spann">
-              <i class="fas fa-phone"></i>
-            </span>
-          </a>
         </div>
       </div>
       <div className="resume">

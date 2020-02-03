@@ -53,6 +53,31 @@
   color: grey;
 }
 
+.skill-photos {
+  width: 50%;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.skill-photo {
+  width: 25%;
+  height: 100%;
+  filter: drop-shadow(1px 1px 2px #222);
+  border-radius: 2px;
+}
+
+.skill-photo:hover {
+  transform: scale(1.1) translateY(0.2rem);
+  -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+  filter: drop-shadow(1.5px 1.5px 4px #222);
+  z-index: 20;
+  transition: all 0.25s;
+}
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -106,6 +131,11 @@
   .education,
   .skills {
     text-align: start;
+  }
+
+  .skill-photos {
+    width: 80%;
+    margin-top: 10px;
   }
 }
 

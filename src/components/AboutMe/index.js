@@ -1,5 +1,9 @@
 import React from "react";
 import "./style.css";
+import javascript from "../../images/javascript.png";
+import node from "../../images/node.png";
+import react from "../../images/react.png";
+import mongologo from "../../images/mongologo.png";
 
 const AboutMe = () => {
   return (
@@ -37,7 +41,8 @@ const AboutMe = () => {
             Front-End Development:
           </p>
           <p className="important-text">
-            HTML5, CSS3, Javascript/ES6, AJAX, jQuery, React.js, React Native
+            HTML5, CSS3/Flexbox/Grid, Javascript/ES6, AJAX, jQuery, React.js,
+            React Native
           </p>
           <br className="break"></br>
 
@@ -45,16 +50,24 @@ const AboutMe = () => {
             Back-End Development:
           </p>
           <p className="important-text">
-            Node.js, Express.js, MySQL, MongoDB, Firebase, C++
+            Node.js, Express.js, MySQL, MongoDB, Firebase, Java, C++
           </p>
 
           <br className="break"></br>
           <p className="less-important-text" id="skills-header">
             Deployment:
           </p>
-          <p className="important-text">Heroku, AWS S3, CloudFront, Git</p>
+          <p className="important-text">
+            Heroku, AWS S3, CloudFront, Google Cloud Platform, Git, Netlify
+          </p>
           <br></br>
         </div>
+      </div>
+      <div className="skill-photos">
+        <img src={javascript} alt="JS" className="skill-photo" />
+        <img src={node} alt="JS" className="skill-photo" />
+        <img src={react} alt="JS" className="skill-photo" />
+        <img src={mongologo} alt="JS" className="skill-photo" />
       </div>
     </div>
   );
