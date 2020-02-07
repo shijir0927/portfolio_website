@@ -30,6 +30,20 @@
   color: #285172;
 }
 
+.my-icon {
+  /* filter: drop-shadow(1px 1px 2px #222); */
+  border-radius: 2px;
+}
+
+.my-icon:hover,
+.my-resume:hover {
+  transform: scale(1.1) translateY(0.2rem);
+  -webkit-filter: drop-shadow(1.5px 1.5px 2px #222);
+  filter: drop-shadow(1.5px 1.5px 4px #222);
+  z-index: 20;
+  transition: all 0.3s;
+}
+
 .spann {
   color: #285172;
   font-size: 96px;

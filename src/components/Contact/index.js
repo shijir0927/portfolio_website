@@ -14,16 +14,24 @@ const Contact = () => {
             href="https://www.linkedin.com/in/shijirerdenebatenkh/"
             target="_blank"
           >
-            <span className="spann">
+            <span className="spann my-icon">
               <i class="fab fa-linkedin"></i>
             </span>
           </a>
-          <a href="https://github.com/shijir0927" target="_blank">
+          <a
+            href="https://github.com/shijir0927"
+            target="_blank"
+            className="my-icon"
+          >
             <span className="spann">
               <i class="fab fa-github"></i>
             </span>
           </a>
-          <a href="mailto:shijiree_mng@yahoo.com" target="_blank">
+          <a
+            href="mailto:shijiree_mng@yahoo.com"
+            target="_blank"
+            className="my-icon"
+          >
             <span className="spann">
               <i class="fas fa-envelope-square"></i>
             </span>
@@ -35,6 +43,7 @@ const Contact = () => {
           href="https://drive.google.com/file/d/1fjQ8bvtsDSVQQVOp29dGOROAOP10RbGE/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
+          className="my-resume"
         >
           <button className="get-resume">Get Resume</button>
         </a>

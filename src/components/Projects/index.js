@@ -53,7 +53,7 @@ const Projects = () => {
                   <li>HTML5</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>CSS3</li>
+                  <li>CSS3 | Flexbox</li>
                   <hr className="card-technologies-line"></hr>
 
                   <li>Javascript/jQuery</li>
@@ -76,9 +76,7 @@ const Projects = () => {
             <div className="card-front">
               <div className="card-title">
                 <h2>
-                  <span className="card-title-text">
-                    Sorting algorithms visualzer
-                  </span>
+                  <span className="card-title-text">Project</span>
                 </h2>
               </div>
               <div className="card-technologies">
@@ -109,9 +107,7 @@ const Projects = () => {
             <div className="card-front">
               <div className="card-title">
                 <h2>
-                  <span className="card-title-text">
-                    The shortest path finder
-                  </span>
+                  <span className="card-title-text">Project</span>
                 </h2>
               </div>
               <div className="card-technologies">
