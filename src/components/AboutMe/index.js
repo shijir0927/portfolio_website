@@ -50,7 +50,7 @@ const AboutMe = () => {
             Back-End Development:
           </p>
           <p className="important-text">
-            Node.js, Express.js, MySQL, MongoDB, Firebase, Java, C++
+            Node.js, Express.js, Java, C++, MySQL, MongoDB, Firebase
           </p>
 
           <br className="break"></br>

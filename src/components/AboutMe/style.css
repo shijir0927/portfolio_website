@@ -74,7 +74,7 @@
   transform: scale(1.1) translateY(0.2rem);
   -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
   filter: drop-shadow(1.5px 1.5px 4px #222);
-  z-index: 20;
+
   transition: all 0.25s;
 }
 
