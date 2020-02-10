@@ -57,7 +57,24 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
   .intro-portfolio-image {
-    height: 250px;
+    height: 200px;
+  }
+  .intro {
+    height: 90vh;
+  }
+  .main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: ivory;
+    text-align: center;
+  }
+
+  .particle {
+    height: 80vh;
+    width: 100vw;
   }
   .intro-container {
     margin-top: 0;
@@ -68,12 +85,12 @@
   }
 
   .intro-big-name {
-    font-size: 32px;
+    font-size: 28px;
     margin: 5px;
   }
 
   .intro-text {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
