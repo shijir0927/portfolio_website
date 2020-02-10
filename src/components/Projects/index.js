@@ -107,7 +107,7 @@ const Projects = () => {
             <div className="card-front">
               <div className="card-title">
                 <h2>
-                  <span className="card-title-text">Project</span>
+                  <span className="card-title-text">Data Structure</span>
                 </h2>
               </div>
               <div className="card-technologies">
@@ -138,7 +138,7 @@ const Projects = () => {
             <div className="card-front">
               <div className="card-title">
                 <h2>
-                  <span className="card-title-text">GreenBay Cleaning</span>
+                  <span className="card-title-text">Green Bay</span>
                 </h2>
               </div>
               <div className="card-technologies">
@@ -169,7 +169,7 @@ const Projects = () => {
             <div className="card-front">
               <div className="card-title">
                 <h2>
-                  <span className="card-title-text">HostIt</span>
+                  <span className="card-title-text">VerbaMate</span>
                 </h2>
               </div>
               <div className="card-technologies">

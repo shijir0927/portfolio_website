@@ -177,6 +177,12 @@
     position: relative;
     width: 300px;
     height: auto;
+    box-shadow: none;
+  }
+
+  .card-back {
+    background-color: #2196f3;
+    background-image: none;
   }
   .project-card:hover > .card-front {
     transform: none;
