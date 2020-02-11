@@ -13,59 +13,64 @@ const Projects = () => {
         <div className="project-cards">
           <div className="project-card card1">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="VerbaMate">
                 <h2>
-                  <span className="card-title-text">codeHub</span>
+                  <span className="card-title-text-1">VerbaMate</span>
                 </h2>
               </div>
               <div className="card-technologies">
                 <ul>
-                  <li>React.js</li>
+                  <li>React Native</li>
                   <hr className="card-technologies-line"></hr>
                   <li>Node.js | Express.js</li>
                   <hr className="card-technologies-line"></hr>
                   <li>MongoDB</li>
                   <hr className="card-technologies-line"></hr>
-                  <li>CSS Grid</li>
+                  <li>Google Cloud Storage</li>
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back verbamate-back">
               <div className="card-description">
                 <p>
-                  A community for developers and recruiters to learn and connect
+                  VerbaMate is an anonymous Q&A app made to be used as a new
+                  social networking app on the UC Berkeley campus.
                 </p>
               </div>
               <div className="card-button-big">
-                <button className="card-button">Source Code</button>
+                <a>
+                  <button className="card-button">App Store Link</button>
+                </a>
               </div>
             </div>
           </div>
           <div className="project-card card2">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="Mongoose">
                 <h2>
-                  <span className="card-title-text">Meal Music</span>
+                  <span className="card-title-text-2">Mongoose Scraper</span>
                 </h2>
               </div>
               <div className="card-technologies">
                 <ul>
-                  <li>HTML5</li>
+                  <li>Javascript | jQuery</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>CSS3 | Flexbox</li>
+                  <li>Cheerio.js</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>Javascript/jQuery</li>
+                  <li>Node.js</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>REST API</li>
+                  <li>MongoDB</li>
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back mongoose-back">
               <div className="card-description">
-                <p>Search restaurants accompanied with a relevant playlist</p>
+                <p>
+                  Gather, save, and post notes to trending NPR News articles.
+                </p>
               </div>
               <div className="card-button-big">
                 <button className="card-button">Demo</button>
@@ -74,29 +79,30 @@ const Projects = () => {
           </div>
           <div className="project-card card3">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="CodeHub">
                 <h2>
-                  <span className="card-title-text">Project</span>
+                  <span className="card-title-text-3">CodeHub</span>
                 </h2>
               </div>
               <div className="card-technologies">
                 <ul>
+                  <li>React.js</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Node.js</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>MongoDB</li>
+                  <hr className="card-technologies-line"></hr>
+
                   <li>HTML5</li>
-                  <hr className="card-technologies-line"></hr>
-
-                  <li>CSS3</li>
-                  <hr className="card-technologies-line"></hr>
-
-                  <li>Javascript/jQuery</li>
-                  <hr className="card-technologies-line"></hr>
-
-                  <li>REST API</li>
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back codehub-back">
               <div className="card-description">
-                Visualize the most popular sorting algorithms
+                A community for developers and recruiters to learn and connect
+                with vidoes, articles, events, and forum posts about tech.
               </div>
               <div className="card-button-big">
                 <button className="card-button">Demo</button>
@@ -105,9 +111,9 @@ const Projects = () => {
           </div>
           <div className="project-card card4">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="MealMusic">
                 <h2>
-                  <span className="card-title-text">Data Structure</span>
+                  <span className="card-title-text-4">Meal Music</span>
                 </h2>
               </div>
               <div className="card-technologies">
@@ -125,9 +131,10 @@ const Projects = () => {
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back mealmusic-back">
               <div className="card-description">
-                Visualize the path finding algorithms
+                Search restaurants accompanied with a relevant playlist using
+                Spotify and Yelp API.
               </div>
               <div className="card-button-big">
                 <button className="card-button">Demo</button>
@@ -136,13 +143,16 @@ const Projects = () => {
           </div>
           <div className="project-card card5">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="Clicky">
                 <h2>
-                  <span className="card-title-text">Green Bay</span>
+                  <span className="card-title-text-5">Clicky Game</span>
                 </h2>
               </div>
               <div className="card-technologies">
                 <ul>
+                  <li>React.js</li>
+                  <hr className="card-technologies-line"></hr>
+
                   <li>HTML5</li>
                   <hr className="card-technologies-line"></hr>
 
@@ -150,15 +160,12 @@ const Projects = () => {
                   <hr className="card-technologies-line"></hr>
 
                   <li>Javascript/jQuery</li>
-                  <hr className="card-technologies-line"></hr>
-
-                  <li>REST API</li>
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back clicky-back">
               <div className="card-description">
-                A website for home cleaning company
+                A memory game made in React.js
               </div>
               <div className="card-button-big">
                 <button className="card-button">Demo</button>
@@ -167,32 +174,33 @@ const Projects = () => {
           </div>
           <div className="project-card card6">
             <div className="card-front">
-              <div className="card-title">
+              <div className="card-title" id="Bamazon">
                 <h2>
-                  <span className="card-title-text">VerbaMate</span>
+                  <span className="card-title-text-6">Bamazon</span>
                 </h2>
               </div>
               <div className="card-technologies">
                 <ul>
-                  <li>HTML5</li>
-                  <hr className="card-technologies-line"></hr>
-
-                  <li>CSS3</li>
+                  <li>Node.js</li>
                   <hr className="card-technologies-line"></hr>
 
                   <li>Javascript/jQuery</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>REST API</li>
+                  <li>MySQL</li>
+                  <hr className="card-technologies-line"></hr>
+
+                  <li>Command Line Interface</li>
                 </ul>
               </div>
             </div>
-            <div className="card-back">
+            <div className="card-back bamazon-back">
               <div className="card-description">
-                Real-time event hosting mobile app.
+                An amazon like app with product inventory in the command line
+                interface.
               </div>
               <div className="card-button-big">
-                <button className="card-button">Demo</button>
+                <button className="card-button">Source Code</button>
               </div>
             </div>
           </div>
