@@ -1,7 +1,7 @@
 .header {
   text-align: center;
   font-size: 50px;
-  margin-top: 50px;
+
   font-weight: 700;
   color: #285172;
 }
@@ -12,7 +12,9 @@
   background-color: #285172;
   border: none;
 }
-
+.CONTACT {
+  margin: 0;
+}
 .contact-icons {
   width: 100%;
   height: 100%;
@@ -22,9 +24,11 @@
 }
 
 .contact-icons-small {
-  padding-top: 200px;
+  padding-top: 100px;
 }
-
+.contact-page {
+  margin: 0;
+}
 .fab,
 .bas {
   color: #285172;
@@ -55,7 +59,7 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 200px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 .get-resume {
@@ -82,6 +86,7 @@
   }
   .CONTACT {
     font-size: 32px;
+    margin-bottom: 25px;
   }
   .contact-icons-small {
     padding: 20px;
@@ -93,6 +98,10 @@
 
   .contact-icons {
     width: 100vw;
+  }
+
+  .resume {
+    padding-top: 0;
   }
 }
 

@@ -11,7 +11,6 @@
 .header {
   text-align: center;
   font-size: 50px;
-  margin-top: 50px;
   font-weight: 700;
   padding-top: 50px;
 }
@@ -149,6 +148,7 @@
   ); */
   color: #ffffff;
   line-height: 150%;
+  text-transform: uppercase;
 }
 
 .card-title-text-1,
@@ -222,6 +222,13 @@
   border: none;
   color: grey;
   font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.card-button:hover {
+  transition: all 0.3s;
+  font-weight: 600;
 }
 
 .card-technologies-line {

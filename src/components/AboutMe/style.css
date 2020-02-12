@@ -5,8 +5,12 @@
 .header {
   text-align: center;
   font-size: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
   font-weight: 700;
+}
+.ABOUT-ME {
+  font-size: 2.25rem;
+  margin-bottom: 25px;
 }
 .line {
   width: 400px;
@@ -14,6 +18,7 @@
   height: 4px;
   background-color: #285172;
   border: none;
+  display: none;
 }
 
 .about-me-wrapper {
@@ -35,10 +40,11 @@
 }
 .big-text {
   margin: 20px 0px;
+  font-size: 1.75rem;
 }
 
 .important-text {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 5px 0px;
   line-height: 150%;
@@ -68,6 +74,7 @@
   height: 100%;
   filter: drop-shadow(1px 1px 2px #222);
   border-radius: 2px;
+  margin: 0 20px;
 }
 
 .skill-photo:hover {
@@ -136,6 +143,10 @@
   .skill-photos {
     width: 80%;
     margin-top: 10px;
+  }
+
+  .skill-photo {
+    margin: 0 5px;
   }
 }
 

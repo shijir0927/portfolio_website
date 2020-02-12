@@ -38,7 +38,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="card-button-big">
-                <a>
+                <a href = "">
                   <button className="card-button">App Store Link</button>
                 </a>
               </div>
