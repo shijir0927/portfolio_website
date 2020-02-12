@@ -18,7 +18,7 @@ const AboutMe = () => {
           <div className="experience">
             <h1 className="big-text">EXPERIENCE</h1>
             <p className="date">June 2019 - December 2019</p>
-            <p className="important-text">Web Developer Intern</p>
+            <p className="important-text">Full-Stack Web Developer</p>
             <p className="less-important-text">Code with Corgies</p>
           </div>
           <div className="education">
