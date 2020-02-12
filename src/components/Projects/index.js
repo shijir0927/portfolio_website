@@ -34,11 +34,14 @@ const Projects = () => {
               <div className="card-description">
                 <p>
                   VerbaMate is an anonymous Q&A app made to be used as a new
-                  social networking app on the UC Berkeley campus.
+                  social networking app for college students.
                 </p>
               </div>
               <div className="card-button-big">
-                <a href = "">
+                <a
+                  href="https://apps.apple.com/us/app/verbamate/id1497272076"
+                  target="_blank"
+                >
                   <button className="card-button">App Store Link</button>
                 </a>
               </div>
@@ -73,7 +76,12 @@ const Projects = () => {
                 </p>
               </div>
               <div className="card-button-big">
-                <button className="card-button">Demo</button>
+                <a
+                  href="https://sleepy-spire-06652.herokuapp.com/"
+                  target="_blank"
+                >
+                  <button className="card-button">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -105,7 +113,12 @@ const Projects = () => {
                 with vidoes, articles, events, and forum posts about tech.
               </div>
               <div className="card-button-big">
-                <button className="card-button">Demo</button>
+                <a
+                  href="https://limitless-bayou-67971.herokuapp.com/"
+                  target="_blank"
+                >
+                  <button className="card-button">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -137,7 +150,12 @@ const Projects = () => {
                 Spotify and Yelp API.
               </div>
               <div className="card-button-big">
-                <button className="card-button">Demo</button>
+                <a
+                  href="https://fredsgithubaccount.github.io/Meal-Music/#"
+                  target="_blank"
+                >
+                  <button className="card-button">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -168,7 +186,9 @@ const Projects = () => {
                 A memory game made in React.js
               </div>
               <div className="card-button-big">
-                <button className="card-button">Demo</button>
+                <a href="https://clicky-game-7.herokuapp.com/" target="_blank">
+                  <button className="card-button">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -200,7 +220,9 @@ const Projects = () => {
                 interface.
               </div>
               <div className="card-button-big">
-                <button className="card-button">Source Code</button>
+                <a href="https://github.com/shijir0927/bamazon" target="_blank">
+                  <button className="card-button">Source Code</button>
+                </a>
               </div>
             </div>
           </div>

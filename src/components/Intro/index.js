@@ -41,7 +41,7 @@ const particleOpt = {
       }
     },
     size: {
-      value: 4,
+      value: 3,
       random: true,
       anim: {
         enable: false,
