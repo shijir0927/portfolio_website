@@ -20,13 +20,23 @@ const AboutMe = () => {
             <p className="date">June 2019 - December 2019</p>
             <p className="important-text">Full-Stack Web Developer</p>
             <p className="less-important-text">Code with Corgies</p>
+
+            <p className="date">June 2020</p>
+            <p className="important-text">Software Developer</p>
+            <p className="less-important-text">CopernIQ</p>
           </div>
           <div className="education">
             <h1 className="big-text">EDUCATION</h1>
+
+            <p className="date">2020-2022</p>
+            <p className="important-text">University of California, Davis</p>
+            <p className="less-important-text">
+              Bachelor of Science, Mathematics
+            </p>
             <p className="date">2019</p>
             <p className="important-text">University of California, Berkeley</p>
             <p className="less-important-text">
-              Full-Stack Web Development Bootcamp
+              Full-Stack Web Development Certificate
             </p>
             <p className="date">2017-2019</p>
             <p className="important-text">Diablo Valley College</p>
@@ -41,8 +51,8 @@ const AboutMe = () => {
             Front-End Development:
           </p>
           <p className="important-text">
-            HTML5, CSS3/Flexbox/Grid, Javascript/ES6, AJAX, jQuery, React.js,
-            React Native
+            HTML5, CSS3/Flexbox/Grid, Sass, Javascript/ES6, Typescript, AJAX,
+            jQuery, React.js, Gatsby.js, React Native, Redux, Jest
           </p>
           <br className="break"></br>
 
@@ -50,7 +60,8 @@ const AboutMe = () => {
             Back-End Development:
           </p>
           <p className="important-text">
-            Node.js, Express.js, Java, C++, MySQL, MongoDB, Firebase
+            Node.js, Express.js, Java, C++, MySQL, MongoDB, Firebase, Docker,
+            Postman, Strapi
           </p>
 
           <br className="break"></br>

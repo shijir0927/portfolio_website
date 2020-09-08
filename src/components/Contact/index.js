@@ -28,7 +28,7 @@ const Contact = () => {
             </span>
           </a>
           <a
-            href="mailto:shijiree_mng@yahoo.com"
+            href="mailto:sbatenkh@ucdavis.edu"
             target="_blank"
             className="my-icon"
           >
@@ -40,7 +40,7 @@ const Contact = () => {
       </div>
       <div className="resume">
         <a
-          href="https://drive.google.com/file/d/1fjQ8bvtsDSVQQVOp29dGOROAOP10RbGE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1WwiI3l-uD5yIK6AGcRV7lIvz3CcCo8d3/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="my-resume"

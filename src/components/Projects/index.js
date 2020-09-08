@@ -134,7 +134,7 @@ const Projects = () => {
                   <li>HTML5</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>CSS3</li>
+                  <li>CSS Flexbox</li>
                   <hr className="card-technologies-line"></hr>
 
                   <li>Javascript/jQuery</li>
@@ -174,7 +174,7 @@ const Projects = () => {
                   <li>HTML5</li>
                   <hr className="card-technologies-line"></hr>
 
-                  <li>CSS3</li>
+                  <li>CSS Grid</li>
                   <hr className="card-technologies-line"></hr>
 
                   <li>Javascript/jQuery</li>

@@ -52,7 +52,7 @@
 
 /* Media query for Mobile */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   /* Styles */
   .my-header {
     width: 100vw;
@@ -64,9 +64,17 @@
 }
 
 /* Media query for Tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 680px) and (max-device-width: 1024px) {
   /* Styles */
   .my-header {
-    color: blue;
+  }
+
+  .header-big-name {
+    font-size: 20px !important;
+    margin-top: 25px !important;
+  }
+
+  .header-link {
+    font-size: 20px !important;
   }
 }
