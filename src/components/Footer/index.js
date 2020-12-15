@@ -4,7 +4,7 @@ import "./style.css";
 const Footer = () => {
   return (
     <div className="my-footer">
-      <p>Copyright © Shijir-Erdene Bat-Enkh</p>
+      <p>Shijir-Erdene Bat-Enkh © 2020</p>
     </div>
   );
 };

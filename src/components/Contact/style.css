@@ -3,18 +3,19 @@
   font-size: 50px;
 
   font-weight: 700;
-  color: #285172;
+  color: #004EB6;
 }
 .line {
   width: 400px;
   margin: 5px auto;
   height: 4px;
-  background-color: #285172;
+  background-color: #004EB6;
   border: none;
 }
 .CONTACT {
   margin: 0;
   font-size: 2.25rem;
+  color: #F36258;
 }
 .contact-icons {
   width: 100%;
@@ -32,7 +33,7 @@
 }
 .fab,
 .bas {
-  color: #285172;
+  color: #004EB6;
 }
 
 .my-icon {
@@ -50,7 +51,7 @@
 }
 
 .spann {
-  color: #285172;
+  color: #004EB6;
   font-size: 96px;
   margin: 20px;
 }
@@ -68,7 +69,7 @@
   height: 75px;
   width: 150px;
   border-radius: 5px;
-  background-color: #285172;
+  background-color: #004EB6;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
@@ -86,7 +87,7 @@
     padding-top: 10px;
   }
   .CONTACT {
-    font-size: 32px;
+    font-size: 1.5rem;
     margin-bottom: 25px;
   }
   .contact-icons-small {

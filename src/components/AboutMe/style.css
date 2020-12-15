@@ -1,16 +1,16 @@
 .about-me {
-  color: #285172;
-  background-color: #ffffff;
+  color: black;
+  background-color:#fff;
 }
 .header {
   text-align: center;
   font-size: 50px;
-  margin-top: 10px;
   font-weight: 700;
 }
 .ABOUT-ME {
   font-size: 2.25rem;
   margin-bottom: 25px;
+  color: #F36258;
 }
 .line {
   width: 400px;
@@ -26,13 +26,20 @@
   display: flex;
   font-weight: 500;
   justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
 .experience-and-education {
+  width: 70%;
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.skill-icons{
+  width: 30%;
 }
 
 .skills {
@@ -40,18 +47,25 @@
 }
 .big-text {
   margin: 20px 0px;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+  /* color: #004EB6; */
+  color: #F36258;
+}
+
+.orange{
+  color: #F36258;
 }
 
 .important-text {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 300;
   margin: 5px 0px;
   line-height: 150%;
 }
 
 .date {
   color: grey;
+  font-size: .9rem;
 }
 .less-important-text {
   font-size: 16px;
@@ -85,6 +99,40 @@
   transition: all 0.25s;
 }
 
+.about-me-section{
+  width: 70%;
+}
+
+.about-me-section>p{
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.about-me-skills{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  margin-top: 40px;
+}
+
+.about-me-skill{
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.about-me-image{
+  width: 30%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.shijir-image{
+  width: 100%;
+  height: 100%;
+}
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -130,15 +178,30 @@
     justify-content: center;
   }
 
-  .experience-and-education,
-  .skills {
-    width: 80%;
-    margin: auto;
+  .about-me-section{
+    width: 90%;
+    text-align: left;
+  }
+  .shijir-image{
+    display: none;
+  }
+
+  .about-me-skill{
+    line-height: 24px;
+    text-align: center;
+  }
+  .ABOUT-ME{
+    font-size: 1.5rem;
+  }
+  .experience-and-education{
+    width: 90%;
+    flex-direction: column;
   }
   .experience,
   .education,
   .skills {
-    text-align: start;
+    text-align: center;
+    align-self: center;
   }
 
   .skill-photos {

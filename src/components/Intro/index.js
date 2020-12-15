@@ -2,11 +2,64 @@ import React from "react";
 import "./style.css";
 import Image from "../../images/shijir.JPG";
 import Particles from "react-particles-js";
+import { ParallaxButton, ParallaxWrapper} from 'react-parallax-button';
+import * as Scroll from 'react-scroll';
+
+const Intro = () => {
+
+  const scrollTo = (className) => {
+    // smooth scolling
+    const scroller = Scroll.scroller;
+    scroller.scrollTo( className, {
+        duration: 1000,
+        delay: 0,
+        smooth: 'easeInOutQuart'
+    })
+  }
+  return (
+    <div className="intro">
+      <div className="intro-container">
+        <Particles className="particle" params={particleOpt} />
+        <div className="main-content">
+          {/* <img
+            src={Image}
+            alt="Portfolio picture"
+            className="intro-portfolio-image"
+          /> */}
+          <h1 className="intro-big-name">Hello, I'm <span className = 'intro-name'>Shijir Bat</span></h1>
+          {/* <hr className="intro-line"></hr> */}
+          <p className="intro-text">
+            I like to build cool things.
+          </p>
+          <div onClick = {()=> scrollTo('header')}>
+            <ParallaxButton  
+              text="Learn More"  
+              parallaxScale={1}  
+              backgroundStyle={{  
+                background: 'linear-gradient(right, #FF826E, #F36258)',  
+                boxShadow: '0 4px 8px rgba(0, 0, 0, .3)'  
+              }}  
+              textStyle={{  
+                padding: '10px',  
+                color: 'white',
+                fontSize: '1.25rem'  
+              }}  
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Intro;
+
 
 const particleOpt = {
   particles: {
     number: {
-      value: 100,
+      value: 75,
       density: {
         enable: true,
         value_area: 800
@@ -76,11 +129,11 @@ const particleOpt = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: "grab"
       },
       onclick: {
-        enable: true,
+        enable: false,
         mode: "push"
       },
       resize: true
@@ -112,27 +165,3 @@ const particleOpt = {
     }
   }
 };
-
-const Intro = () => {
-  return (
-    <div className="intro">
-      <div className="intro-container">
-        <Particles className="particle" params={particleOpt} />
-        <div className="main-content">
-          <img
-            src={Image}
-            alt="Portfolio picture"
-            className="intro-portfolio-image"
-          />
-          <h1 className="intro-big-name">Shijir-Erdene Bat-Enkh</h1>
-          <hr className="intro-line"></hr>
-          <p className="intro-text">
-            Full-Stack Developer based in San Francisco, CA
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Intro;

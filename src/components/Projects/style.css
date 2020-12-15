@@ -1,6 +1,10 @@
 .projects {
-  background-color: #eaf1f1;
+  background-color: #fff;
   color: #285172;
+}
+
+.PROJECTSS{
+  color: #F36258;
 }
 
 .projects-wrapper {
@@ -253,7 +257,7 @@
   }
 
   .PROJECTSS {
-    font-size: 32px;
+    font-size: 1.5rem;
   }
 
   .project-cards {
