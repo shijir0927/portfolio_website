@@ -7,44 +7,58 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import {Scroll, Element} from 'react-scroll';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import 'react-awesome-slider/dist/styles.css';
+
+const slider = (
+  <AwesomeSlider animation="cubeAnimation">
+    {/* <Intro/>
+    <AboutMe/>
+    <Projects/>
+    <Contact/> */}
+    <div>
+      <Intro/>
+    </div>
+    <div>
+      <AboutMe/>
+    </div>
+    <div>
+      <Projects/>
+    </div>
+    <div>
+      <Contact/>
+    </div>
+  </AwesomeSlider>
+);
 
 const App = () =>{
 
-  const scrollTo = (className) => {
-    // smooth scolling
-    const scroller = Scroll.scroller;
-    scroller.scrollTo( className, {
-        duration: 1000,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-    })
-  }
-
   return(
     <div>
+      {/* {slider} */}
+      <Element name="intro" className="element">
+        <Intro />    
+      </Element>
 
-    <Element name="intro" className="element">
-      <Intro />    
-    </Element>
+      <Element name="header" className="element sticky">
+        <Header/>
+      </Element>
 
-    <Element name="header" className="element sticky">
-      <Header/>
-    </Element>
+      <Element name="aboutMe" className="element">
+        <AboutMe />
+      </Element>
 
-    <Element name="aboutMe" className="element">
-      <AboutMe />
-    </Element>
+      <Element name="projects" className="element">
+        <Projects />
+      </Element>
 
-    <Element name="projects" className="element">
-      <Projects />
-    </Element>
+      <Element name="contact" className="element">
+        <Contact />
+      </Element>
 
-    <Element name="contact" className="element">
-      <Contact />
-    </Element>
-
-    <Footer />
-  </div>
+      <Footer />
+    </div>
   )
 }
 export default App;

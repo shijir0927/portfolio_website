@@ -10,3 +10,13 @@
   top: 0;
   z-index: 21;
 }
+.awssld{
+  height: 100vh !important;
+}
+.awssld__content{
+  height: 100vh !important;
+}
+
+.awssld__content>div{
+  width: 100vw;
+}
