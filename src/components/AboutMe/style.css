@@ -185,6 +185,11 @@
   .shijir-image{
     display: none;
   }
+  .about-me-skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    margin-top: 40px;
+  }
 
   .about-me-skill{
     line-height: 24px;
