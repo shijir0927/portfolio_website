@@ -93,7 +93,7 @@ const AboutMe = () => {
               <p className="important-text">Front-End Developer</p>
               <p className="less-important-text">Breathe Mongolia</p>
 
-              <p className="date">June 2020</p>
+              <p className="date">June 2020 - December 2020</p>
               <p className="important-text">Software Developer</p>
               <p className="less-important-text">CopernIQ</p>
 

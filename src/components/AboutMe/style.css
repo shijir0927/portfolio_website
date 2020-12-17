@@ -188,7 +188,7 @@
 
   .about-me-skill{
     line-height: 24px;
-    text-align: center;
+    text-align: left;
   }
   .ABOUT-ME{
     font-size: 1.5rem;
@@ -202,6 +202,13 @@
   .skills {
     text-align: center;
     align-self: center;
+    width: 90%;
+  }
+
+  .experience > p, .education > p{
+    text-align: left;
+    align-self: flex-start;
+    font-size: 1.1rem;
   }
 
   .skill-photos {
