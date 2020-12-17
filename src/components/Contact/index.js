@@ -40,7 +40,7 @@ const Contact = () => {
       </div>
       <div className="resume">
         <a
-          href="https://drive.google.com/file/d/1WwiI3l-uD5yIK6AGcRV7lIvz3CcCo8d3/view?usp=sharing"
+          href="https://drive.google.com/file/d/11Gc1slpp4M7KTM0HewPIKSO9ZAohG4Mo/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="my-resume"

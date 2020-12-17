@@ -31,7 +31,7 @@ const AboutMe = () => {
             </div>
 
             <div className = 'about-me-skill skill-3'>
-              <p>▹ Node/Express</p>
+              <p>▹ NodeJS</p>
             </div>
 
             <div className = 'about-me-skill skill-4'>
