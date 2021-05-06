@@ -1,8 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
 import * as Scroll from 'react-scroll';
+import {Icon} from 'react-fa'
 
 const Header = () => {
+
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () =>{
+    setIsMenuOpen(!isMenuOpen);
+
+  }
 
   const scrollTo = (className) => {
     // smooth scolling
@@ -12,6 +21,11 @@ const Header = () => {
         delay: 0,
         smooth: 'easeInOutQuart'
     })
+  }
+
+  const handleMenuItemClick = (dest) =>{
+    scrollTo(dest);
+    setIsMenuOpen(false);
   }
 
   return (
@@ -31,6 +45,23 @@ const Header = () => {
             <p onClick = {()=>scrollTo('contact')}>Contact</p>
           </div>
         </div>
+      </div>
+      <div className="mobile-menu-container" onClick={handleMenuClick}>
+        <Icon name="bars"/>
+      </div>
+      <div className={`header-links-mobile ${isMenuOpen ? 'show' : 'hide'}`}>
+          <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('intro')}>
+            <p>Home</p>
+          </div>
+          <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('aboutMe')}>
+            <p>About</p>
+          </div>
+          <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('projects')}>
+            <p>Projects</p>
+          </div>
+          <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('contact')}>
+            <p>Contact</p>
+          </div>
       </div>
     </div>
   );
