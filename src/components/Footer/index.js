@@ -39,7 +39,7 @@ const Footer = () => {
           <Icon name="envelope"/>
         </a>
         <a className="footer-icon-container"
-        href="https://drive.google.com/file/d/11Gc1slpp4M7KTM0HewPIKSO9ZAohG4Mo/view?usp=sharing"
+        href="https://drive.google.com/file/d/1FNbpwRm6Iu7RvCVQgaY9Ts9uQgJqk7Vv/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer">
           <Icon name="file"/>
