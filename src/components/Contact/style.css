@@ -41,6 +41,7 @@
   outline: none;
   padding: 10px 15px;
   width: 100%;
+  -webkit-appearance: none;
 }
 
 .contact-submit{
@@ -53,6 +54,7 @@
   color: white;
   font-size: 14px;
   font-weight: 500;
+  -webkit-appearance: none;
 }
 
 .contact-submit:hover{
