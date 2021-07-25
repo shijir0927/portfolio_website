@@ -46,7 +46,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-name">
-        <p>Shijir-Erdene Bat-Enkh © 2021</p>
+        <p>Designed and developed by Shijir Bat © 2021</p>
       </div>
     </div>
   );

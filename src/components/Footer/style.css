@@ -61,6 +61,7 @@
 
 .footer-up:hover{
   cursor: pointer;
+  opacity: .7;
 }
 
 /* Media query for Mobile */
