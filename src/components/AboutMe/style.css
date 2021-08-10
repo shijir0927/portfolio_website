@@ -134,6 +134,72 @@
   width: 100%;
   height: 100%;
 }
+
+.about-me-skill-icons{
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-skill-icons-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.about-me-skill-icon{
+  width: 50%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  height: 230px;
+}
+
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  background: #F36258;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateZ(-30deg);
+}
+
+.hexagon::before,
+.hexagon::after {
+  content: "";
+  position: absolute;
+  border-left: 51px solid transparent;
+  border-right: 51px solid transparent;
+}
+
+.hexagon::before {
+  bottom: 99%;
+  border-bottom: 30px solid #F36258;
+}
+
+.hexagon::after {
+  top: 99%;
+  border-top: 30px solid #F36258;
+}
+
+.about-me-skill-icon > h3{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 38px 0 10px 0;
+}
+
+.about-me-skill-icon > p{
+  text-align: center;
+  line-height: 24px;
+}
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -225,6 +291,14 @@
   .skill-photo {
     margin: 0 5px;
   }
+
+  .about-me-skill-icons{
+    flex-direction: column !important;
+  }
+
+  .about-me-skill-icons-row{
+    width: 100%;
+  }
 }
 
 /* Media query for Tablet */
@@ -239,6 +313,14 @@
   }
 
   .experience-and-education{
+    width: 100%;
+  }
+  .about-me-skill-icons{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .about-me-skill-icons-row{
     width: 100%;
   }
 }

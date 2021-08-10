@@ -6,7 +6,12 @@ import react from "../../images/react.png";
 import mongologo from "../../images/mongologo.png";
 import Shijir from "../../images/shijir.JPG";
 import { ParallaxButton, ParallaxWrapper} from 'react-parallax-button';
-
+import Fast from "../../images/undraw_fast_loading_re_8oi3.svg";
+import Responsive from "../../images/undraw_Sync_re_492g.svg";
+import Intuitive from "../../images/undraw_lightbulb_moment_re_ulyo.svg";
+import Dynamic from "../../images/undraw_App_wireframe_re_d467.svg";
+import Icon from "@mdi/react";
+import { mdiSpeedometer, mdiCellphoneLink, mdiLightbulbOnOutline, mdiRocketLaunchOutline } from '@mdi/js';
 const AboutMe = () => {
   return (
     <div className="about-me">
@@ -17,7 +22,7 @@ const AboutMe = () => {
       <br></br>
       <div className="about-me-wrapper">
         <div className = 'about-me-section'>
-          <p>Hello, I'm Shijir. I'm a third year computer science student at <span className = 'orange'>University of California, Davis</span>.</p>
+          <p>Hello, I'm Shijir. I'm a <span className = 'orange'>full stack developer</span> based in <span className = 'orange'>San Francisco</span>.</p>
           <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Also, I love things that are built to work reliably, whilst at the same time charm its users with its <span className = 'orange'>aesthetic look</span> and <span className = 'orange'>ease of use</span>.</p>
           <p>Here are a few technologies I've been working with recently:</p>
 
@@ -84,12 +89,16 @@ const AboutMe = () => {
         </div> */}
       </div>
 
-      <div className="about-me-wrapper">
+      {/* <div className="about-me-wrapper">
         <div className="experience-and-education">
             <div className="experience">
               <h1 className="big-text">EXPERIENCE</h1>
 
-              <p className="date">November 2020</p>
+              <p className="date">February 2021</p>
+              <p className="important-text">Software Engineer</p>
+              <p className="less-important-text">Pair Anything</p>
+
+              <p className="date">November 2020 - March 2021</p>
               <p className="important-text">Front-End Developer</p>
               <p className="less-important-text">Breathe Mongolia</p>
 
@@ -98,7 +107,7 @@ const AboutMe = () => {
               <p className="less-important-text">CopernIQ</p>
 
               <p className="date">June 2019 - December 2019</p>
-              <p className="important-text">Full-Stack Developer</p>
+              <p className="important-text">Software Engineer Intern</p>
               <p className="less-important-text">Code with Corgies</p>
             </div>
             <div className="education">
@@ -117,7 +126,58 @@ const AboutMe = () => {
             </div>
         </div>
         <div className = "skill-icons">
+          
+        </div>
+      </div> */}
+      <div className="about-me-skill-icons">
+        <div className="about-me-skill-icons-row">
+          <div className="about-me-skill-icon">
+            <div className="hexagon">
+            <Icon path={mdiSpeedometer}
+                  size={2}
+                  color="white"
+                  rotate={30}
+            />
+            </div>
+            <h3>Fast</h3>
+            <p>Fast load times and lag free interaction, my highest priority.</p>
+          </div>
+          <div className="about-me-skill-icon">
+          <div className="hexagon">
+            <Icon path={mdiCellphoneLink}
+                  size={2}
+                  color="white"
+                  rotate={30}
+            />
+            </div>
+            <h3>Responsive</h3>
+            <p>My layouts will work on any device, big or small.</p>
+          </div>
+        </div>
 
+        <div className="about-me-skill-icons-row">
+          <div className="about-me-skill-icon">
+          <div className="hexagon">
+            <Icon path={mdiLightbulbOnOutline}
+                  size={2}
+                  color="white"
+                  rotate={30}
+            />
+            </div>
+            <h3>Intuitive</h3>
+            <p>Strong preference for easy to use, intuitive UX/UI.</p>
+          </div>
+          <div className="about-me-skill-icon">
+          <div className="hexagon">
+            <Icon path={mdiRocketLaunchOutline}
+                  size={2}
+                  color="white"
+                  rotate={30}
+            />
+            </div>
+            <h3>Dynamic</h3>
+            <p>Websites don't have to be static, I love making pages come to life.</p>
+          </div>
         </div>
       </div>
       {/* <div className="skill-photos">
