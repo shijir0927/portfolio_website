@@ -6,10 +6,6 @@ import react from "../../images/react.png";
 import mongologo from "../../images/mongologo.png";
 import Shijir from "../../images/shijir.JPG";
 import { ParallaxButton, ParallaxWrapper} from 'react-parallax-button';
-import Fast from "../../images/undraw_fast_loading_re_8oi3.svg";
-import Responsive from "../../images/undraw_Sync_re_492g.svg";
-import Intuitive from "../../images/undraw_lightbulb_moment_re_ulyo.svg";
-import Dynamic from "../../images/undraw_App_wireframe_re_d467.svg";
 import Icon from "@mdi/react";
 import { mdiSpeedometer, mdiCellphoneLink, mdiLightbulbOnOutline, mdiRocketLaunchOutline } from '@mdi/js';
 const AboutMe = () => {
