@@ -1,0 +1,119 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-native",
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "warn",
+    "no-this-before-super": "error",
+    "no-extra-boolean-cast": "off",
+    "lines-between-class-members": [
+      "error",
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ],
+    "react/jsx-handler-names": [
+      "error",
+      {
+        "eventHandlerPrefix": "handle",
+        "eventHandlerPropPrefix": "on"
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true
+      }
+    ],
+    "class-methods-use-this": "off",
+    "react/prefer-stateless-function": [
+      1,
+      {
+        "ignorePureComponents": false
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.js",
+        "**/*.jsx"
+      ],
+      "extends": [
+        "airbnb",
+        "plugin:react/recommended"
+      ],
+      "rules": {
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [
+              ".js",
+              ".jsx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "extends": [
+        "airbnb-typescript",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "rules": {
+        "react/prop-types": 0,
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [
+              ".ts",
+              ".tsx"
+            ]
+          }
+        ],
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": [
+              "src/storybook/**",
+              "**/**.stories.tsx"
+            ]
+          }
+        ]
+      },
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  ]
+}

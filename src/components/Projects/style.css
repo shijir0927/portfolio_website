@@ -233,7 +233,7 @@
 
 .card-button:hover {
   transition: all 0.3s;
-  font-weight: 600;
+  opacity: .7;
 }
 
 .card-technologies-line {
@@ -243,6 +243,76 @@
   border: none;
   margin: auto;
   opacity: 0.2;
+}
+
+.Modal{
+  background: linear-gradient(to right bottom, #44b2e6, #05044d);
+  position: absolute;
+  inset: 50% auto auto 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-height: 70vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  transition: all 0.3s;
+}
+
+.ReactModal__Overlay{
+  z-index: 100000;
+}
+
+.modal-close-button{
+  text-align: right;
+  align-self: flex-end;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.modal-close-button:hover{
+  cursor: pointer;
+  opacity: .7;
+  transition: all 0.3s;
+}
+
+.modal-buttons > button{
+  border-radius: 35px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  border: none;
+  color: grey;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+
+.modal-buttons > button:hover{
+  cursor: pointer;
+  opacity: .7;
+  transition: all 0.3s;
+}
+
+.modal-title{
+  margin: 18px 0;
+}
+
+.modal-desc{
+  margin: 12px 0;
+}
+
+.modal-text{
+  margin: 8px 0;
+}
+
+.modal-span{
+  font-weight: 600;
 }
 
 /* Media query for Mobile */
