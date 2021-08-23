@@ -10,6 +10,8 @@ import {Scroll, Element} from 'react-scroll';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import 'react-awesome-slider/dist/styles.css';
+import UIkit from 'uikit/dist/js/uikit.min';
+import "animate.css"
 
 const slider = (
   <AwesomeSlider animation="cubeAnimation">

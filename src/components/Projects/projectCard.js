@@ -53,14 +53,19 @@ const ProjectCard = (props) =>{
             <Modal
               isOpen={isOpen}
               onRequestClose={closeModal}
-              className="Modal"
+              className="Modal animate__animated animate__slideInLeft"
+              style={{overlay: {background: 'rgba(0,0,0,.4)'}}}
             >
-              <button className="modal-close-button" onClick={closeModal}>X</button>
-              <h2 className="modal-title">{title}</h2>
-              <p className="modal-desc">{description}</p>
-              <p className="modal-text"><span className="modal-span">Project Owner: </span> TomYo EdTech</p>
-              <p className="modal-text"><span className="modal-span">Tools Used: </span> TomYo EdTech</p>
-              <p className="modal-text"><span className="modal-span">Year: </span> TomYo EdTech</p>
+              <div className="modal-header">
+                <h2 className="modal-title">{title}</h2>
+                <button className="modal-close-button" onClick={closeModal}>X</button>
+              </div>
+              <div className="modal-body">
+                <p className="modal-desc">{description}</p>
+                <p className="modal-text"><span className="modal-span">Project Owner: </span> TomYo EdTech</p>
+                <p className="modal-text"><span className="modal-span">Tools Used: </span> TomYo EdTech</p>
+                <p className="modal-text"><span className="modal-span">Year: </span> TomYo EdTech</p>
+              </div>         
               <div className="modal-buttons">
                 <button>View Code</button>
                 <button>Demo</button>

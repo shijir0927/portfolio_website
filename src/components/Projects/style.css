@@ -6,6 +6,8 @@
 
 .PROJECTSS{
   color: #F36258;
+  font-size: 2.25rem !important;
+  margin-top: 50px;
 }
 
 .projects-wrapper {
@@ -37,6 +39,7 @@
     "card1 card2 card3"
     "card4 card5 card6"; */
   justify-items: center;
+  grid-column-gap: 30px;
 }
 
 .project-card {
@@ -247,15 +250,15 @@
 
 .Modal{
   background: linear-gradient(to right bottom, #44b2e6, #05044d);
-  position: absolute;
-  inset: 50% auto auto 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  /* background: #023e8a; */
+  /* background: linear-gradient(90deg, rgba(68,178,230,1) 0%, rgba(74,74,149,1) 50%, rgba(5,4,77,1) 100%); */
+  margin: auto;
+  margin-top: 15%;
   max-height: 70vh;
+  max-width: 760px;
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 30px;
   transition: all 0.3s;
 }
 
@@ -263,9 +266,17 @@
   z-index: 100000;
 }
 
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: 1px solid rgba(255,255,255, .3);
+  height: 70px;
+}
+
 .modal-close-button{
   text-align: right;
-  align-self: flex-end;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -281,6 +292,15 @@
   transition: all 0.3s;
 }
 
+.modal-buttons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30px;
+  border-top: 1px solid rgba(255,255,255, .3);
+  height: 70px;
+}
+
 .modal-buttons > button{
   border-radius: 35px;
   padding: 10px 15px;
@@ -290,7 +310,6 @@
   font-weight: 500;
   cursor: pointer;
   text-transform: uppercase;
-  margin-top: 32px;
 }
 
 .modal-buttons > button:hover{
@@ -299,16 +318,20 @@
   transition: all 0.3s;
 }
 
+.modal-body{
+  padding: 30px;
+}
+
 .modal-title{
-  margin: 18px 0;
+  margin: 24px 0;
 }
 
 .modal-desc{
-  margin: 12px 0;
+  margin: 18px 0;
 }
 
 .modal-text{
-  margin: 8px 0;
+  margin: 12px 0;
 }
 
 .modal-span{
@@ -389,9 +412,86 @@
     font-weight: 500;
     background-color: white;
   }
+  .projects-wrapper{
+    width: 90% !important;
+  }
 }
 
 /* Media query for Tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 1024px) {
   /* Styles */
+  .line {
+    width: 250px;
+  }
+  .header {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .PROJECTSS {
+    font-size: 1.5rem;
+  }
+
+  .project-cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 30px;
+  }
+  .project-card {
+    width: 300px;
+    border-radius: 3px;
+    /* background-color: #fff; */
+    height: auto;
+    margin: 30px;
+    text-align: center;
+    line-height: 150%;
+    border-radius: 3px;
+    overflow: visible;
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+  }
+  .card-front,
+  .card-back {
+    overflow: visible;
+    transform: none;
+    transition: none;
+    position: relative;
+    width: 300px;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .project-card:hover > .card-front {
+    transform: none;
+  }
+  .project-card:hover > .card-back {
+    transform: none;
+  }
+
+  .card-title {
+    height: 60px;
+    background-image: linear-gradient(
+        to right bottom,
+        #eca026,
+        rgba(185, 19, 19, 0.911)
+      ),
+      url(../../images/meal-music.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    background-blend-mode: screen;
+  }
+
+  .card-description {
+    padding-bottom: 0;
+  }
+  .card-button {
+    border-radius: 35px;
+    padding: 20px 30px;
+    border: none;
+    color: rgb(88, 88, 88);
+    font-weight: 500;
+    background-color: white;
+  }
+  .projects-wrapper{
+    width: 80% !important;
+  }
 }
