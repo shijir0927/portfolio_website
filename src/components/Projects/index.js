@@ -24,6 +24,7 @@ const Projects = () => {
                     projectOwner={project.projectOwner}
                     year={project.year}
                     role={project.role}
+                    projectUrl={project.projectUrl}
                   />
           })}
         </div>

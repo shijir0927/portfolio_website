@@ -13,7 +13,8 @@ const ProjectCard = (props) =>{
     secondaryColor ,
     projectOwner,
     year,
-    role
+    role,
+    projectUrl
   } = props;
 
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +80,7 @@ const ProjectCard = (props) =>{
                 <p className="modal-text"><span className="modal-span">Year: </span>{year}</p>
               </div>         
               <div className="modal-buttons">
-                <button>Visit Project</button>
+                <button onClick={() => window.open(projectUrl)}>Visit Project</button>
               </div>
             </Modal>
           </div>

@@ -9,6 +9,7 @@ export const ProjectsInfo = [
     projectOwner: 'UNICEF',
     year: 2021,
     role: 'Frond End Developer',
+    projectUrl: 'https://agaarneg.mn/',
     tech: [
       {
       id: 1,
@@ -37,6 +38,7 @@ export const ProjectsInfo = [
     projectOwner: 'TomYo EdTech',
     year: 2021,
     role: 'Frond End Developer',
+    projectUrl: 'https://tomyo.io/',
     tech: [
       {
       id: 1,
@@ -65,6 +67,7 @@ export const ProjectsInfo = [
     projectOwner: 'Mastermind LLC',
     year: 2021,
     role: 'Mobile Developer',
+    projectUrl: 'https://apps.apple.com/us/app/memoclass/id1573337062',
     tech: [
       {
       id: 1,
@@ -93,6 +96,7 @@ export const ProjectsInfo = [
     projectOwner: 'Pair Anything Inc',
     year: 2020,
     role: 'Full-Stack Developer',
+    projectUrl: 'https://app.pairanything.com/',
     tech: [
       {
       id: 1,
@@ -121,6 +125,7 @@ export const ProjectsInfo = [
     projectOwner: 'Breathe Mongolia - Clean Air Coalition',
     year: 2020,
     role: 'Full Stack Developer',
+    projectUrl: 'https://breathemongolia.org/',
     tech: [
       {
       id: 1,
@@ -149,6 +154,7 @@ export const ProjectsInfo = [
     projectOwner: 'Personal',
     year: 2020,
     role: 'Full Stack Developer',
+    projectUrl: 'https://apps.apple.com/us/app/verbamate/id1497272076',
     tech: [
       {
       id: 1,

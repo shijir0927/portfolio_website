@@ -355,6 +355,9 @@
   .projects-wrapper{
     width: 90% !important;
   }
+  .Modal{
+    margin-top: 50%;
+  }
 }
 
 /* Media query for Tablet */
@@ -428,4 +431,8 @@
   .projects-wrapper{
     width: 80% !important;
   }
+  .Modal{
+    margin-top: 30%;
+  }
 }
+
