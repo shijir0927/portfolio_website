@@ -60,7 +60,7 @@
 }
 
 .contact-submit:hover{
-  background-color: #023e8a;
+  opacity: .7;
 }
 
 .contact-submit:active{

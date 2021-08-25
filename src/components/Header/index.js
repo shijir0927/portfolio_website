@@ -39,7 +39,7 @@ const Header = () => {
             <p onClick = {()=>scrollTo('aboutMe')}>About</p>
           </div>
           <div className="header-link">
-            <p onClick = {()=>scrollTo('projects')}>Projects</p>
+            <p onClick = {()=>scrollTo('projects')}>Portfolio</p>
           </div>
           <div className="header-link">
             <p onClick = {()=>scrollTo('contact')}>Contact</p>
@@ -57,7 +57,7 @@ const Header = () => {
             <p>About</p>
           </div>
           <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('projects')}>
-            <p>Projects</p>
+            <p>Portfolio</p>
           </div>
           <div className="header-link-mobile" onClick = {()=>handleMenuItemClick('contact')}>
             <p>Contact</p>

@@ -64,12 +64,18 @@
   opacity: .7;
 }
 
+.footer-name{
+  text-align: center;
+}
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles */
-  
+  .footer-name{
+    margin: 0 30px;
+  }
   }
 
   /* Media query for Tablet */

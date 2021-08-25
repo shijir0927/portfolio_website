@@ -1,13 +1,10 @@
 import React from "react";
 import "./style.css";
-import javascript from "../../images/javascript.png";
-import node from "../../images/node.png";
-import react from "../../images/react.png";
-import mongologo from "../../images/mongologo.png";
 import Shijir from "../../images/shijir.JPG";
 import { ParallaxButton, ParallaxWrapper} from 'react-parallax-button';
 import Icon from "@mdi/react";
 import { mdiSpeedometer, mdiCellphoneLink, mdiLightbulbOnOutline, mdiRocketLaunchOutline } from '@mdi/js';
+
 const AboutMe = () => {
   return (
     <div className="about-me">
@@ -17,7 +14,7 @@ const AboutMe = () => {
       </div>
       <br></br>
       <div className="about-me-wrapper">
-        <div className = 'about-me-section'>
+        <div className = 'about-me-section uk-animation-slide-left'>
           <p>Hello, I'm Shijir. I'm a <span className = 'orange'>full stack developer</span> based in <span className = 'orange'>San Francisco</span>.</p>
           <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Also, I love things that are built to work reliably, whilst at the same time charm its users with its <span className = 'orange'>aesthetic look</span> and <span className = 'orange'>ease of use</span>.</p>
           <p>Here are a few technologies I've been working with recently:</p>
@@ -32,11 +29,11 @@ const AboutMe = () => {
             </div>
 
             <div className = 'about-me-skill skill-3'>
-              <p>▹ NodeJS</p>
+              <p>▹ Node.js</p>
             </div>
 
             <div className = 'about-me-skill skill-4'>
-              <p>▹ CSS/Sass</p>
+              <p>▹ Next.js</p>
             </div>
 
             <div className = 'about-me-skill skill-5'>
@@ -136,7 +133,7 @@ const AboutMe = () => {
             />
             </div>
             <h3>Fast</h3>
-            <p>Fast load times and lag free interaction, my highest priority.</p>
+            <p>Lag free interaction is my highest priority.</p>
           </div>
           <div className="about-me-skill-icon">
           <div className="hexagon">
@@ -172,7 +169,7 @@ const AboutMe = () => {
             />
             </div>
             <h3>Dynamic</h3>
-            <p>Websites don't have to be static, I love making pages come to life.</p>
+            <p>I love making pages come to life.</p>
           </div>
         </div>
       </div>

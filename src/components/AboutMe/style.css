@@ -12,6 +12,7 @@
   font-size: 2.25rem;
   margin-bottom: 25px;
   color: #F36258;
+  margin-top: 50px;
 }
 .line {
   width: 400px;
@@ -294,10 +295,12 @@
 
   .about-me-skill-icons{
     flex-direction: column !important;
+    width: 90%;
   }
 
   .about-me-skill-icons-row{
     width: 100%;
+    height: 300px;
   }
 }
 
