@@ -1,9 +1,5 @@
 import React from "react";
 import "./style.css";
-import javascript from "../../images/javascript.png";
-import node from "../../images/node.png";
-import react from "../../images/react.png";
-import mongologo from "../../images/mongologo.png";
 import Shijir from "../../images/shijir.JPG";
 import { ParallaxButton, ParallaxWrapper} from 'react-parallax-button';
 import Icon from "@mdi/react";
@@ -33,7 +29,7 @@ const AboutMe = () => {
             </div>
 
             <div className = 'about-me-skill skill-3'>
-              <p>▹ NodeJS</p>
+              <p>▹ Node.js</p>
             </div>
 
             <div className = 'about-me-skill skill-4'>

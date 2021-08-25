@@ -86,26 +86,28 @@
 }
 .card-technologies li {
   list-style-type: none;
-  margin: 10px 0px;
+  margin: 8px 0px;
   font-weight: 500;
 }
 
 .card-title {
   background-image: linear-gradient(to right bottom, #2196f3, #285172);
-  padding: 20px 0;
-  height: 100px;
+  /* padding: 20px 0; */
+  height: 160px;
+  position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-size: cover;
-  background-position: center center;
-
-  background-blend-mode: screen;
 }
 
-#MealMusic {
+.card-title > h2{
+  z-index: 2;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* #MealMusic {
   background-image: linear-gradient(to right bottom, #9c1283, #aa2b15),
     url(../../images/meal-music.jpg);
 }
@@ -136,81 +138,19 @@
       rgba(185, 19, 19, 0.911)
     ),
     url(../../images/bamazon.jfif);
-}
+} */
 .card-technologies {
   background-color: #ffffff;
   padding: 15px 0;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.card-title-text-1,
-.card-title-text-2,
-.card-title-text-3,
-.card-title-text-4,
-.card-title-text-5,
-.card-title-text-6 {
-  /* background-image: linear-gradient(
-    to right bottom,
-    rgba(236, 160, 38, 0.9),
-    rgba(211, 102, 102, 0.9)
-  ); */
+.card-title-text {
   color: #ffffff;
   line-height: 150%;
   text-transform: uppercase;
-}
-
-.card-title-text-1,
-.verbamate-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(68, 178, 230, 0.9),
-    rgba(5, 4, 77, 0.9)
-  );
-}
-
-.card-title-text-2,
-.mongoose-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(107, 51, 14, 0.9),
-    rgba(151, 143, 28, 0.9)
-  );
-}
-
-.card-title-text-3,
-.codehub-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(57, 107, 42, 0.9),
-    rgba(27, 46, 33, 0.9)
-  );
-}
-
-.card-title-text-4,
-.mealmusic-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(156, 18, 131, 0.9),
-    rgba(170, 43, 21, 0.9)
-  );
-}
-
-.card-title-text-5,
-.clicky-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(131, 131, 131, 0.9),
-    rgba(46, 46, 46, 0.9)
-  );
-}
-
-.card-title-text-6,
-.bamazon-back {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(236, 160, 38, 0.9),
-    rgba(185, 19, 19, 0.9)
-  );
+  padding: 4px;
+  background-color: #023e8a;
 }
 
 .card-description {
@@ -249,7 +189,7 @@
 }
 
 .Modal{
-  background: linear-gradient(to right bottom, #44b2e6, #05044d);
+  /* background: linear-gradient(to right bottom, #44b2e6, #05044d); */
   /* background: #023e8a; */
   /* background: linear-gradient(90deg, rgba(68,178,230,1) 0%, rgba(74,74,149,1) 50%, rgba(5,4,77,1) 100%); */
   margin: auto;
@@ -260,6 +200,8 @@
   display: flex;
   flex-direction: column;
   transition: all 0.3s;
+  background: white;
+  color: black;
 }
 
 .ReactModal__Overlay{
@@ -338,6 +280,11 @@
   font-weight: 600;
 }
 
+.project-card-cover-image{
+  height: 80%;
+  position: absolute;
+}
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -388,16 +335,9 @@
   }
 
   .card-title {
-    height: 60px;
-    background-image: linear-gradient(
-        to right bottom,
-        #eca026,
-        rgba(185, 19, 19, 0.911)
-      ),
-      url(../../images/meal-music.jpg);
+    height: 80px;
     background-size: cover;
     background-position: center center;
-
     background-blend-mode: screen;
   }
 
@@ -467,13 +407,7 @@
   }
 
   .card-title {
-    height: 60px;
-    background-image: linear-gradient(
-        to right bottom,
-        #eca026,
-        rgba(185, 19, 19, 0.911)
-      ),
-      url(../../images/meal-music.jpg);
+    height: 100px;
     background-size: cover;
     background-position: center center;
 
