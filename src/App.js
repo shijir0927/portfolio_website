@@ -12,6 +12,7 @@ import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import 'react-awesome-slider/dist/styles.css';
 import UIkit from 'uikit/dist/js/uikit.min';
 import "animate.css"
+import '../node_modules/uikit/dist/css/uikit.min.css';
 
 const slider = (
   <AwesomeSlider animation="cubeAnimation">

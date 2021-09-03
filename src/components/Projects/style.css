@@ -145,12 +145,17 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+.card-technologies > ul {
+  padding-left: 0 !important;
+}
+
 .card-title-text {
   color: #ffffff;
   line-height: 150%;
   text-transform: uppercase;
   padding: 4px;
   background-color: #023e8a;
+  font-weight: bold !important;
 }
 
 .card-description {
@@ -215,6 +220,10 @@
   padding: 0 30px;
   border-bottom: 1px solid rgba(255,255,255, .3);
   height: 70px;
+}
+
+.modal-title{
+  font-weight: bold !important;
 }
 
 .modal-close-button{

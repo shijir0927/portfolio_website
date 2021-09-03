@@ -73,6 +73,10 @@
   align-self: flex-end;
 }
 
+.contact-svg{
+  height: 75px !important;
+}
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

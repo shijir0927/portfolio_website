@@ -5,14 +5,14 @@ import {ProjectsInfo} from './projectsInfo';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" data-uk-scrollspy="target: > *; cls:animated uk-animation-slide-bottom-medium; delay: 300;">
       <div className="projects-wrapper">
         <div className="header">
           <p className="PROJECTSS">PORTFOLIO</p>
           <hr className="line"></hr>
         </div>
 
-        <div className="project-cards">
+        <div className="project-cards" data-uk-scrollspy="target: > *; cls:animated uk-animation-slide-bottom-medium; delay: 100;">
           {ProjectsInfo.map(project=>{
             return <ProjectCard 
                     title={project.title} 

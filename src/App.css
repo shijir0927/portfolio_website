@@ -4,6 +4,11 @@
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1{
+  color: white !important;
+  font-weight: 700 !important;
+  /* letter-spacing: 1.4px; */
+}
 
 .sticky{
   position: sticky;

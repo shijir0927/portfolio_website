@@ -27,15 +27,15 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
-      <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+      <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" className="contact-svg">
         <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
       </svg>
-      <div className="header">
+      <div className="header" data-uk-scrollspy="target: > *; cls:animated uk-animation-slide-bottom-medium; delay: 200;">
         <p className="CONTACT">CONTACT</p>
         <hr className="line"></hr>
       </div>
       <div>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit} data-uk-scrollspy="target: > *; cls:animated uk-animation-slide-bottom-medium; delay: 200;">
         <input className="contact-input" required placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
         <input className="contact-input" required placeholder="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         <textarea className="contact-input" required rows="10" placeholder="Type your message here" type="text" value={message} onChange={(e) => setMessage(e.target.value)} />
