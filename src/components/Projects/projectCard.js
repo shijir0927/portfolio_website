@@ -38,7 +38,7 @@ const ProjectCard = (props) =>{
 
               </div>
               <div className="card-technologies">
-                <ul>
+                <ul>  
                   {tech.map(item=>{
                     return(
                       <>
@@ -67,7 +67,7 @@ const ProjectCard = (props) =>{
               isOpen={isOpen}
               onRequestClose={closeModal}
               className="Modal animate__animated animate__slideInLeft"
-              style={{overlay: {background: 'rgba(0,0,0,.4)'}, content: {}}}
+              style={{overlay: {background: 'rgba(0,0,0,.4)'}, content: {border: 'none'}}}
             >
               <div className="modal-header">
                 <h2 className="modal-title">{title}</h2>
