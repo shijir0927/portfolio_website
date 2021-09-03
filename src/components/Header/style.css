@@ -36,6 +36,10 @@
   font-weight: 500;
 }
 
+.header-link > p{
+  margin: 0 !important;
+}
+
 .header-link:hover{
   cursor: pointer;
   color: #F36258;
@@ -66,6 +70,7 @@
 .header-links-mobile{
   display: none;
 }
+
 /* Media query for Mobile */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
@@ -127,7 +132,7 @@
 
   .header-link-mobile > p{
     margin-left: 20px;
-
+    margin-bottom: 0 !important;
   }
 }
 

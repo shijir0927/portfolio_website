@@ -39,7 +39,7 @@
 
 .intro-big-name {
   margin: 20px;
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
 }
 
 .intro-name{
@@ -48,7 +48,7 @@
 
 .intro-text {
   margin: 20px;
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
 .main-content {
@@ -92,12 +92,12 @@
   }
 
   .intro-big-name {
-    font-size: 28px;
-    margin: 5px;
+    font-size: 28px !important;
+    margin: 5px !important;
   }
 
   .intro-text {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
