@@ -46,7 +46,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-name">
-        <p>Designed and developed by Shijir Bat © 2021</p>
+        <p>Designed and developed by Shijir Bat © {new Date().getFullYear()}</p>
       </div>
     </div>
   );
