@@ -37,7 +37,7 @@ const AboutMe = () => {
             </div>
 
             <div className = 'about-me-skill skill-5'>
-              <p>▹ Gatsby.js</p>
+              <p>▹ Rails</p>
             </div>
 
             <div className = 'about-me-skill skill-6'>
